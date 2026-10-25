@@ -1,0 +1,16 @@
+
+{
+  "name": "registration_form",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/server",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev:server": "npm --prefix apps/server run dev",
+    "dev:web": "npm --prefix apps/web run dev",
+    "test": "npm --prefix apps/server test",
+    "build": "npm --prefix apps/web run build"
+  }
+}
