@@ -60,7 +60,7 @@ void main() {
     final errors = RegistrationValidation.validate(
       username: 'demo_user',
       email: 'demo@example.com',
-      password: 'A1!' + ('a' * 126),
+      password: 'A1!${'a' * 126}',
     );
 
     expect(errors.containsKey('password'), isTrue);
