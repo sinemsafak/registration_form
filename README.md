@@ -1,7 +1,11 @@
 
-# registration_form
+# Registration Form
 
 React web ve Flutter mobil kayıt formu projesi.
+
+# Görünüm
+<img width="322" height="410" alt="Ekran görüntüsü 2026-10-26 140030" src="https://github.com/user-attachments/assets/cbaf099a-3ad9-448e-a4a3-1ee894283d9d" />
+
 
 ## Gereksinimler
 
